@@ -14,6 +14,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 li {
     color: whitesmoke;
 }
@@ -25,4 +29,23 @@ p {
 
 a {
     color: whitesmoke;
+    
+}
+
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.navBar li a {
+    background-color: aqua;
+    width: 100%
+}
+
+.navBar a:hover {
+    background-color: aquamarine;
 }
